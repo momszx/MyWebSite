@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/Style.css">
+  <link rel="stylesheet" type="text/css" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
@@ -41,17 +43,30 @@
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        
       </ul>
     </div>
   </div>
 </nav>
 
 <div class="jumbotron">
-  <div class="container text-center">
-    <h1>My Portfolio</h1>      
-    <p>Some text that represents "Me"...</p>
-  </div>
+	<div class="container demo">
+   		<div class="content">
+      		<div id="large-header" class="large-header">
+         		<canvas id="demo-canvas"></canvas>
+ 					<div class="container text-center">
+  						<div class="row">
+    						<div class="col-sm-4" >	
+    							<h1>My Portfolio</h1>      
+    							<p>Some text that represents "Me"...</p>
+    						</div>
+    						<div class="col-sm-8">
+    						</div>
+  						</div>
+    				</div>
+   			</div>
+		</div>
+  	</div>
 </div>
   
 <div class="container-fluid bg-3 text-center">    
@@ -100,6 +115,11 @@
 <footer class="container-fluid text-center">
   <p>Footer Text</p>
 </footer>
+
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
+
 
 </body>
 </html>
